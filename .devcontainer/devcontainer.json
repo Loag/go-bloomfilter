@@ -1,0 +1,23 @@
+{
+  "name": "go-bloomfilter-dev",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/go":{},
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+      },
+      "extensions": [
+        "enkia.tokyo-night",
+        "PKief.material-icon-theme",
+        "golang.go"
+      ]
+    }
+  },
+  "remoteUser": "root",
+  "runArgs": [
+    "--network", "host"
+  ]
+  
+}
