@@ -7,8 +7,8 @@ This projects original use case is for windowed udp packet deduplication.
 ## Usage
 
 ``` go
-	bloomFilter := NewBloomFilter(500)
+bloomFilter := NewBloomFilter(500)
 
-	bloomFilter.Add([]byte("hello"))
-	bloomFilter.Contains([]byte("hello"))
+bloomFilter.Add([]byte("hello"))
+bloomFilter.Contains([]byte("hello"))
 ```
