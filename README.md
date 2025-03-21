@@ -2,7 +2,7 @@
 
 The intent behind this package is a low overhead, as fast as possible bloom filter.
 
-This projects original use case is for windowed udp packet deduplication.
+The original use-case for this project was for windowed udp packet deduplication.
 
 ## Usage
 
